@@ -2,9 +2,6 @@
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains what the project is.
-This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
 An assembly language is a low-level programming language for programming computational devices. A low-level programming language is
 one that has a tight correspondence with the hardware of the machine. In this project I developed an assembly language for
 Turing Machines. 
