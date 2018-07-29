@@ -22,7 +22,7 @@ that your code is short and concise.
 The following is an example of a TM File:
 
 ****************************************************************************
--- Initialization:
+-- Initialization: 
 {states: Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,A,R}
 {start: Q0}
 {accept: A}
@@ -57,6 +57,7 @@ rRl Q7 x;
 rRt Q7 _ A;
 
 ****************************************************************************
+
 Comments start with a -- and the initialization. The first part of each TM source file is the initialization of the 
 hardware which is a list of configurations. Then the rest of the file is a series of commands that defines the algorithm 
 of the Turing Machine. The previous exapmle is the definition of the TM that accepst the language: L = {w#w | w ∈ {0, 1}*}.
